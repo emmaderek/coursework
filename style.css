@@ -1,23 +1,51 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
+body{
+font-family: Arial, sans-serif;
+background:#eeeeee;
 }
 
-.container {
-    margin-top: 50px;
+.container{
+width:600px;
+margin:auto;
+background:white;
+padding:20px;
 }
 
-.main-image {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-    margin: 20px 0;
+.main-image{
+width:250px;   /* reduced image size */
+display:block;
+margin:auto;
+margin-bottom:15px;
 }
 
-p {
-    width: 60%;
-    margin: auto;
-    font-size: 18px;
-    color: #333;
+.title{
+text-decoration: underline;
+}
+
+.uni{
+font-size:18px;
+}
+
+.square{
+list-style-type:square;
+}
+
+.circle{
+list-style-type:circle;
+}
+
+.timetable{
+width:100%;
+border-collapse:collapse;
+margin-top:30px;
+}
+
+.timetable th,
+.timetable td{
+border:2px solid black;
+padding:10px;
+text-align:center;
+}
+
+.timetable tr:last-child td{
+font-weight:bold;
 }
